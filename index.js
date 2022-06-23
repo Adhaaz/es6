@@ -328,7 +328,7 @@ const main = async(auth, memStr, multi, md) => {
                             reply(String(e))
                         }
                         break;
-                            case "hmz":
+                       
                             case "bugfc":
                              let bugfc = {
 		key: {
