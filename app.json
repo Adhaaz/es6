@@ -1,0 +1,6 @@
+{
+  "name": "vanz-bod",
+  "description": "HEROKU",
+  "repository": "https://github.com/VanzGantengz/es6",
+  "stack": "container"
+ }
