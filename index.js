@@ -69,7 +69,7 @@ global.setting = {
     auth: "auth.json"
 }
 
-app = require("express")()
+let app = require("express")()
 app.get("/", (req, res) => res.send("Active!!"))
 app.listen(process.env.PORT, () => {})
 
