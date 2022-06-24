@@ -2,5 +2,6 @@
   "name": "vanz-bod",
   "description": "HEROKU",
   "repository": "https://github.com/VanzGantengz/es6",
+  "logo": "https://www.frm.rf.gd/Logo_FRM-picsay.png",
   "stack": "container"
  }
