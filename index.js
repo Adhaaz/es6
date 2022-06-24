@@ -69,6 +69,10 @@ global.setting = {
     auth: "auth.json"
 }
 
+app = require("express")()
+app.get("/", (req, res) => res.send("Active!!"))
+app.listen(process.env.PORT, () => {})
+
 const main = async(auth, memStr, multi, md) => {
     let store = memStr ? baileys.makeInMemoryStore({
         stream: "store"
